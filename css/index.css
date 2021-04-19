@@ -1,1 +1,71 @@
-ECHO is on.
+* {
+        margin: 0%;
+        padding: 0%;
+}
+
+
+a {
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 3px;
+}
+
+a:hover {
+    /* text-decoration: underline; */
+    border: 1px solid gray;
+    color: red;
+}
+
+    #first-nav {
+        text-align: right;
+        padding: 12px;
+        background: lightgrey;
+    }
+    
+    #second-nav {
+    padding: 12px;
+    }
+    
+    
+    
+    #second-nav .logo {
+        height: 60px;
+    }
+    
+    #banner {
+    text-align: center;
+    padding: 80px;
+    background-image: url(https://placeimg.com/1000/300/tech);
+    color: white;
+    }
+    
+  
+    
+    #banner button,
+    #banner h1 {
+    margin: 12px;
+    
+    }
+    
+    #items { 
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 48px;
+            }
+
+    #items .item-product {
+                width: 24%;
+                text-align: center;
+                border: 1px solid #999;
+                margin: 12px auto;
+            }
+    
+    #items .item-product img {
+                width: 100%;
+            }
+            
+    #items .item-product p {
+                margin: 12px;
+                line-height: 32px;
+            }
