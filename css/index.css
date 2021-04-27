@@ -45,6 +45,13 @@ a:hover {
     #banner h1 {
     margin: 12px;
     
+    
+    }
+
+    #banner button {
+        border: 1px solid lightblue;
+        border-radius: 3px;
+        padding: 12px 24px;
     }
     
     #items { 
@@ -69,3 +76,109 @@ a:hover {
                 margin: 12px;
                 line-height: 32px;
             }
+
+#cookie{
+    background: black;
+    padding: 24px;
+    text-align: center;
+    color: blanchedalmond;
+    width: 100%;
+    position: sticky;
+    bottom: 0%;
+    
+
+    
+}            
+#cookie a {
+    border: none;
+    color: white;
+}
+
+#footer {
+    height: 200px;
+    background: lightgray;
+    padding: 24px;
+    width: 100%;
+}
+
+#footer form input {
+    padding: 6px;
+    font-size: 18px;
+    color: blue;
+    border: 1px solid cadetblue;
+    border-radius: 3px;
+}
+
+#footer form button {
+    font-size: 18px;
+    border-radius: 3px;
+    padding: 6px;
+    color: white;
+    background: dodgerblue;
+    border: 1px solid dodgerblue;
+}
+
+
+
+
+            @media screen and (max-width: 768px) {
+                #banner {
+                    padding: 20px;
+                }
+            
+                #banner h1 {
+                    font-size: 36px;
+                }
+            
+                #items { 
+                    padding: 24px;
+                }
+            
+                #items .item-product {
+                    width: 48%;
+                }
+            }
+            
+            
+            @media screen and (max-width: 425px) {
+                #second-nav .logo {
+                    height: 36px;
+                }
+            
+                #second-nav .second-nav-menu {
+                    position: relative;
+                }
+            
+                #second-nav .second-nav-links {
+                    display: none;
+                    position: absolute;
+                    top: 36px;
+                    right: 0px;
+                    background: white;
+                }
+            
+                #second-nav .second-nav-hamburger {
+                    border: 1px solid gray;
+                    text-align: center;
+                }
+            
+                #second-nav .second-nav-hamburger:hover + .second-nav-links {
+                    display: flex;
+                    flex-direction: column;
+                    text-align: right;
+                }
+            
+                #banner {
+                    display: box;
+                }
+            
+                #items { 
+                    padding: 12px;
+                }
+            
+                #items .item-product {
+                    width: 100%;
+                }
+            }
+            
+          
